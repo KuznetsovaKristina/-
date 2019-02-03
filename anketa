@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+ <style> 
+p {
+    display: inline-block;
+}
+
+                  h1{
+  font-weight: 400;
+  display:inline-block;
+  margin: auto;
+}
+    h1::after {
+  content:"";
+  display:block;
+  margin: auto;
+  height:2px;
+  background-color:NavajoWhite ;
+  width:60%;
+  transition:all 1s;
+}
+h1:hover::after {
+  width:100%;
+}
+         h3{
+  font-weight: 400;
+  display:inline-block;
+  margin: auto;
+}
+    h3::after {
+  content:"";
+  display:block;
+  margin: auto;
+  height:2px;
+  background-color:NavajoWhite ;
+  width:60%;
+  transition:all 1s;
+}
+h3:hover::after {
+  width:100%;
+}
+
+        div{
+  font-weight: 400;
+  display:inline-block;
+  margin: auto;
+}
+    div::after {
+  content:"";
+  display:block;
+  margin: auto;
+  height:2px;
+  
+  width:60%;
+  transition:all 1s;
+}
+div:hover::after {
+  width:100%;
+}
+
+
+
+
+ .menu__item1{ 
+        display: inline; 
+        } 
+        .menu__href1{
+            margin: 30px;
+            padding: 10px;
+        background:NavajoWhite ; 
+        border: 1px solid white; 
+        border-radius: 20%; 
+        color: white; 
+        } 
+
+        .menu__item{ 
+        display: inline; 
+        } 
+        .menu__href{ 
+        margin: 30px; 
+        padding: 10px; 
+        background: NavajoWhite; 
+        border: 1px solid white; 
+        border-radius: 20%; 
+        color: white; 
+        } 
+
+
+
+        div.a {
+
+background: url(https://static9.depositphotos.com/1265894/1129/i/380/depositphotos_11291780-stock-photo-girl-riding-a-horse-on.jpg); /* Путь к файлу с исходным рисунком */
+
+width: 380px; /* Ширина рисунка */
+
+height:253px ; /* Высота рисунка */
+transition: 0.4s;
+
+}
+div.a:hover {
+    transform: scale(1.15, 1.15);border-radius: 3px;
+}
+
+div.f {
+
+background: url(http://www.muzcentrum.ru/images/news/2016/03/NFOR-180416.jpg); /* Путь к файлу с исходным рисунком */
+
+width: 380px; /* Ширина рисунка */
+border-radius: 3px;
+height:253px ; /* Высота рисунка */
+transition: 0.4s;
+
+}
+div.f:hover {
+    transform: scale(1.15, 1.15);border-radius: 3px;
+}
+div.g {
+
+background: url(http://www.handoky.ru/out/pictures/generated/product/3/380_340_75/img_0798.jpg); /* Путь к файлу с исходным рисунком */
+
+width: 380px; /* Ширина рисунка */
+border-radius: 3px;
+height:253px ; /* Высота рисунка */
+transition: 0.4s;
+
+}
+div.g:hover {
+    transform: scale(1.15, 1.15);border-radius: 3px;
+}
+div.s {
+
+background: url(https://images.seekbusiness.com.au/client/original/15751/84f878e3-9c7b-4229-a980-c9d4893e4416.jpg); /* Путь к файлу с исходным рисунком */
+
+width: 380px; /* Ширина рисунка */
+
+height:253px ; /* Высота рисунка */
+transition: 0.4s;
+border-radius: 3px;
+
+}
+div.s:hover {
+    transform: scale(1.15, 1.15);
+    border-radius: 3px;
+}
+div.kar {
+
+background: url(https://pp.userapi.com/c848624/v848624363/b6605/RxKjQDkA9gs.jpg); /* Путь к файлу с исходным рисунком */
+width: 1000px;/* Ширина рисунка */
+
+height:1000px; 
+transition: 0.4s;
+
+}
+
+
+        </style>
+         <body>
+    <header>
+ <h1>МОЯ АНКЕТА</h1>
+      
+
+    </header>  </head> 
+        <body> 
+        <nav> 
+        <ul> 
+        <li class="menu__item1"> 
+        <a class="menu__href1" href="#art1">ОБО МНЕ</a> 
+        </li> 
+        <li class="menu__item"> 
+        <a class="menu__href" href="#art2"></div>МОИ УВЛЕЧЕНИЯ</a> 
+        </li> 
+        <li class="menu__item"> 
+        <a class="menu__href" href="#art3"></div>ОСОБЫЕ НАВЫКИ</a> 
+        </li> 
+        <li class="menu__item"> 
+        <a class="menu__href" href="#art4"></div>КОНТАНКЫ</a> 
+        </li> 
+        </ul> 
+        </nav> 
+        </body> 
+        
+
+    <main>
+        <article id="art1">
+            <header>
+                <h2></h2>
+                <h3>ОБО МНЕ</h3>
+
+                </header>
+               <div class="kar"></div>                   
+               <H4>ИМЯ</H4><p>Кристина Кузнецова</p>
+               <H4>ВОЗРАСТ</H4><p>18 лет</p>
+               <H4>ФАКУЛЬТЕТ</H4><p>Филология</p>            
+        
+        </article>
+    </main>
+
+</body>
+
+<body>
+
+        <main>
+                <article id="art2">
+                <header>
+                    <h2></h2>
+                    <h3>МОИ УВЛЕЧЕНИЯ</h3>
+                    <h2></h2>
+                </header>
+ 
+                <div class="a"></div>
+                <P>Конный спорт.</P>
+                <div class="s"></div>
+                <P>Бокс.</P>
+            
+            </article>
+        </main>
+
+    </body>
+    
+    <body> 
+        <main>
+            <article id="art3">
+            <header>
+                <h3>ОСОБЫЕ НАВЫКИ</h3>
+                
+            </header>
+            <div class="f"></div>
+            <p>Игра на фортепиано.</p>
+            <div class="g"></div>
+            <p>Мыловарение.</p>
+        <div class="ne"></div>
+        </article>
+    </main>
+        <body>
+
+                <main>
+                        <article id="art4">
+                        <header>
+                            <h2></h2>
+                            <h3>КОНТАКТЫ</h3>
+                        </header>
+                        <h5>САЙТ СДЕЛАЛА</h5>
+                       <p>+7 (916) 502 - 78 - 88  - Кузнецова Кристина</p>
+                       <p>kkusnetsovaa@gmail.com</p>
+  
+                    </article>
+                </main>
+
+            </body>
+
+        </body>
+                             </html>
